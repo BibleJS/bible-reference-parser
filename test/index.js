@@ -3,6 +3,9 @@ var RefParser = require("../index")
   , Debug = require("bug-killer")
   ;
 
+Debug._config.logLevel = 4;
+Debug._config.displayDate = false;
+
 // Tests
 var tests = [
     "Mattew 1:1"
@@ -14,7 +17,8 @@ var tests = [
 
 // Run tests
 for (var i = 0; i < tests.length; ++i) {
-    console.log(
-        Debug.log(tests[i] + " - " + JSON.stringify(RefParser(tests[i])))
+    debugger;
+    Debug.log(
+        tests[i] + " - " + JSON.stringify(RefParser(tests[i])), "info"
     );
 }
