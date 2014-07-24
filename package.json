@@ -1,0 +1,24 @@
+{
+  "name": "bible-reference-parser",
+  "version": "1.0.0",
+  "description": "A parser of Bible references",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BibleJS/reference-parser.git"
+  },
+  "keywords": [
+    "bible",
+    "reference",
+    "parser"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BibleJS/reference-parser/issues"
+  },
+  "homepage": "https://github.com/BibleJS/reference-parser"
+}
