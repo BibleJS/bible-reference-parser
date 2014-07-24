@@ -17,7 +17,6 @@ var tests = [
 
 // Run tests
 for (var i = 0; i < tests.length; ++i) {
-    debugger;
     Debug.log(
         tests[i] + " - " + JSON.stringify(RefParser(tests[i])), "info"
     );
