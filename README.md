@@ -10,6 +10,13 @@ $ cd bible-reference-parser
 $ npm install
 ```
 
+## Example
+
+```js
+var RefParser = require("bible-reference-parser");
+console.log(RefParser("Mattew 1:1");
+```
+
 ## How to contribute
 
 1. File an issue in the repository, using the bug tracker, describing the
