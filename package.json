@@ -1,7 +1,7 @@
 {
   "name": "bible-reference-parser",
-  "version": "1.0.0",
-  "description": "A parser of Bible references",
+  "version": "2.0.0",
+  "description": "A Bible reference parser.",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/index"

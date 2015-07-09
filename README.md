@@ -15,7 +15,7 @@
 
 # bible-reference-parser [![Donate now][donate-now]][paypal-donations]
 
-A parser of Bible references
+A Bible reference parser.
 
 ## Installation
 
