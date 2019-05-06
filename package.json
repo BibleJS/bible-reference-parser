@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:BibleJS/node-reference-parser.git"
+    "url": "git@github.com:BibleJS/bible-reference-parser.git"
   },
   "devDependencies": {
     "bug-killer": "4.0.0"
@@ -18,13 +18,28 @@
     "reference",
     "parser"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "KINDLY",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BibleJS/node-reference-parser/issues"
+    "url": "https://github.com/BibleJS/bible-reference-parser/issues"
   },
-  "homepage": "https://github.com/BibleJS/node-reference-parser",
+  "homepage": "https://github.com/BibleJS/bible-reference-parser",
   "directories": {
     "test": "test"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ]
 }
